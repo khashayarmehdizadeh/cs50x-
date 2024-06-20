@@ -1,10 +1,10 @@
 def main():
-    sentences = input("enter somthing:")
+    sentences =input ("enter a something:")
     convert(sentences)
 
 
 def convert(sentences):
-    new_sentences = sentences.replace(":)", "�").replace("(:", "===")
+    new_sentences = sentences.replace(":)", "🙂").replace(":(", "🙁")
     print(new_sentences)
 
 
